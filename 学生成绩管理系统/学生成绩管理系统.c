@@ -15,7 +15,7 @@ struct course{
 struct course *courses = NULL;
 
 int N = 0;//记录课程数量
-char buffer[100];//存储临时课程信息
+char buffer[100];//存储临时字符串
 
 struct student{
 	char *name;//姓名
